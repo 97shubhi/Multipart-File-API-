@@ -1,0 +1,60 @@
+Maximize
+ -1.0*F3Alfalfa Contract + 425.0*F3Oats + 425.0*F2Oats + 864.0*F3Rice + 647.0*F3Alfalfa + 214.0*F2Rice Proposed + 50.0*F1Oats Contract + 864.0*F1Rice + 864.0*F2Rice + 50.0*F2Oats Contract + 647.0*F1Alfalfa + 425.0*F1Oats + 647.0*F2Alfalfa + 214.0*F1Rice Proposed + -1.0*F1Alfalfa Contract + 214.0*F3Rice Proposed + -1.0*F2Alfalfa Contract + 50.0*F3Oats Contract
+Subject To
+ 1*F3Oats + 1*F3Oats Contract <= 600.0
+ 1*F3Oats Contract + 1*F2Oats Contract + 1*F1Oats Contract = 100.0
+ 25.0*F2Alfalfa + 25.0*F2Alfalfa Contract + 36.0*F3Rice + 36.0*F3Rice Proposed + 25.0*F3Alfalfa + 25.0*F3Alfalfa Contract + 36.0*F1Rice + 36.0*F1Rice Proposed + 36.0*F2Rice + 36.0*F2Rice Proposed + 25.0*F1Alfalfa + 25.0*F1Alfalfa Contract + 25.0*F3Oats + 25.0*F3Oats Contract + 25.0*F2Oats + 25.0*F2Oats Contract + 25.0*F1Oats + 25.0*F1Oats Contract <= 150000.0
+ 1*F1Rice + 1*F1Rice Proposed <= 600.0
+ 1*F1Alfalfa + 1*F1Alfalfa Contract <= 600.0
+ 1*F2Alfalfa + 1*F3Alfalfa + 1*F1Alfalfa >= 255.0
+ 1*F3Rice + 1*F3Rice Proposed <= 600.0
+ 1*F3Rice Proposed + 1*F1Rice Proposed + 1*F2Rice Proposed <= 250.0
+ 1*F3Alfalfa + 1*F3Alfalfa Contract <= 600.0
+ 1*F3Rice + 1*F1Rice + 1*F2Rice <= 500.0
+ 1*F1Oats + 1*F1Oats Contract <= 600.0
+ 1*F2Rice + 1*F2Rice Proposed <= 500.0
+ 1*F2Alfalfa + 1*F2Alfalfa Contract <= 500.0
+ 1*F2Oats + 1*F2Oats Contract <= 500.0
+ 1*F3Oats + 1*F2Oats + 1*F1Oats >= 425.0
+ 1*F2Alfalfa Contract + 1*F3Alfalfa Contract + 1*F1Alfalfa Contract = 50.0
+ 1*F1OatsContract Binary + 1*F1Alfalfa Binary + 1*F1RiceProposed Binary + 1*F1Rice Binary + 1*F1AlfalfaContract Binary + 1*F1Oats Binary <= 1
+ 1*F2Rice Binary + 1*F2AlfalfaContract Binary + 1*F2RiceProposed Binary + 1*F2OatsContract Binary + 1*F2Alfalfa Binary + 1*F2Oats Binary <= 1
+ 1*F3RiceProposed Binary + 1*F3OatsContract Binary + 1*F3Rice Binary + 1*F3Alfalfa Binary + 1*F3AlfalfaContract Binary + 1*F3Oats Binary <= 1
+Bounds
+Variables
+ F3Oats Contract 
+ F3Rice Proposed 
+ F3RiceProposed Binary 
+ F2RiceProposed Binary 
+ F3Oats Binary 
+ F2Alfalfa 
+ F3Rice Binary 
+ F2Alfalfa Binary 
+ F1RiceProposed Binary 
+ F2Oats Contract 
+ F1AlfalfaContract Binary 
+ F1Alfalfa Contract 
+ F1Oats Binary 
+ F1OatsContract Binary 
+ F1Rice 
+ F3Alfalfa Contract 
+ F2Rice 
+ F2AlfalfaContract Binary 
+ F2Rice Proposed 
+ F2Rice Binary 
+ F3OatsContract Binary 
+ F2OatsContract Binary 
+ F1Oats Contract 
+ F1Rice Proposed 
+ F3Rice 
+ F3Alfalfa 
+ F1Alfalfa Binary 
+ F2Alfalfa Contract 
+ F1Rice Binary 
+ F3AlfalfaContract Binary 
+ F1Alfalfa 
+ F2Oats Binary 
+ F3Alfalfa Binary 
+ F3Oats 
+ F2Oats 
+ F1Oats 
